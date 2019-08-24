@@ -1,0 +1,16 @@
+body{
+  background-color: lightgray;
+}
+.banner{
+  background-color: green;
+  margin: auto;
+}
+.responsiveImage{
+  width: 100%;
+  height: auto;
+}
+.navbar-center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
