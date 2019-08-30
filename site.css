@@ -82,3 +82,23 @@ body{
   text-shadow: 1px 1px #000000;
   background-color: #7a0099!important;
 }
+.btn-primary{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+object{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.containerPDF {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  width: 90%;
+  padding-top: 130%;
+}
