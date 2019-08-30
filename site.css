@@ -12,12 +12,19 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
-.responsiveImage3{
-
+.ThuNgoImage{
+  width: 25%;
+}
+/* For width 1000px and smaller: */
+@media only screen and (max-width: 1000px) {
+  .ThuNgoImage{
+    width: 200px;
+  }
+}
+.ThuNgoImage{
   height: auto;
   margin-top: 30px;
   margin-bottom: 15px;
-  width: 25%;
   display:block;
   margin-left:auto;
   margin-right:auto;
