@@ -61,7 +61,7 @@ body{
 .nav-link{
   color: white!important;
   font-family: 'Merriweather', serif;
-  text-shadow: 2px 1px #000000;
+  text-shadow: 1px 1px #000000;
 }
 .dropdown-item{
   font-family: 'Merriweather', serif;
@@ -75,9 +75,10 @@ body{
 .dropdown-item:hover,
 .dropdown-item:focus{
   color: white!important;
-  text-shadow: 2px 1px #000000;
+  text-shadow: 1px 1px #000000;
   background-color: #7a0099!important;
 }
 .active{
+  text-shadow: 1px 1px #000000;
   background-color: #7a0099!important;
 }
