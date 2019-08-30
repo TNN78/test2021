@@ -32,6 +32,7 @@ body{
   margin-left: 10%;
   margin-right: 10%;
   font-family: 'Livvic', sans-serif;
+  font-size: 20px;
 }
 .jumbotron{
   padding-top: 2%;
@@ -41,7 +42,6 @@ body{
   padding-top: 4px;
   padding-bottom: 4px;
 }
-
 .nav-item{
   background-color: #4c0080;
   margin-left: 2px;
@@ -51,7 +51,7 @@ body{
   border-bottom-right-radius: 4px;*/
   height: 100% !important;
 }
-.nav-link{  
+.nav-link{
   color: white!important;
   font-family: 'Merriweather', serif;
 }
