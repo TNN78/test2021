@@ -12,12 +12,19 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
-.responsiveImage3{
-
+.ThuNgoImage{
+  width: 25%;
+}
+/* For width 1000px and smaller: */
+@media only screen and (max-width: 1000px) {
+  .ThuNgoImage{
+    width: 200px;
+  }
+}
+.ThuNgoImage{
   height: auto;
   margin-top: 30px;
   margin-bottom: 15px;
-  width: 25%;
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -54,18 +61,44 @@ body{
 .nav-link{
   color: white!important;
   font-family: 'Merriweather', serif;
+  text-shadow: 1px 1px #000000;
 }
 .dropdown-item{
   font-family: 'Merriweather', serif;
 }
 
 .nav-item:hover,
-.nav-item:focus,
-.dropdown-item:hover,
-.dropdown-item:focus{
+.nav-item:focus{
   color: white!important;
   background-color: #7a0099!important;
 }
-.active{
+.dropdown-item:hover,
+.dropdown-item:focus{
+  color: white!important;
+  text-shadow: 1px 1px #000000;
   background-color: #7a0099!important;
+}
+.active{
+  text-shadow: 1px 1px #000000;
+  background-color: #7a0099!important;
+}
+.btn-primary{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+object{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.containerPDF {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  width: 90%;
+  padding-top: 130%;
 }
