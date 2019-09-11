@@ -1,5 +1,5 @@
 body{
-  background-color: lightgray;
+  background-color: #f7ddfc;
 }
 .banner{
   background-color: #F8CBAE;
@@ -22,6 +22,7 @@ body{
   }
 }
 .ThuNgoImage{
+  width: 92%;
   height: auto;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -43,6 +44,7 @@ body{
 }
 .jumbotron{
   padding-top: 2%;
+  background-color: #f7ddfc;
 }
 .navbar{
   background-color: black!important;
