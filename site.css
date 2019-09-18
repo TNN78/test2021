@@ -5,6 +5,10 @@ body{
   background-color: #F8CBAE;
   margin: auto;
 }
+.banner1{
+  background-color: #f7ddfc;
+  margin: auto;
+}
 .responsiveImage{
   width: 92%;
   height: auto;
