@@ -16,6 +16,13 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
+.responsiveImage1{
+  width: 75%;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
 .ThuNgoImage{
   width: 25%;
 }
@@ -26,7 +33,7 @@ body{
   }
 }
 .ThuNgoImage{
-  width: 92%;
+  width: 85%;
   height: auto;
   margin-top: 30px;
   margin-bottom: 15px;
