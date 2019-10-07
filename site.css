@@ -10,21 +10,18 @@ body{
   margin: auto;
 }
 .responsiveImage{
-  width: 87%;
+  width: 92%;
   height: auto;
   display:block;
   margin-left:auto;
   margin-right:auto;
 }
 .responsiveImage1{
-  width: 85%;
+  width: 90%;
   height: auto;
   display:block;
   margin-left:auto;
   margin-right:auto;
-}
-.ThuNgoImage{
-  width: 25%;
 }
 /* For width 1000px and smaller: */
 @media only screen and (max-width: 1000px) {
