@@ -23,6 +23,7 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
+
 /* For width 1000px and smaller: */
 @media only screen and (max-width: 1000px) {
   .ThuNgoImage{
