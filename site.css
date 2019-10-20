@@ -23,6 +23,13 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
+.responsiveImage2{
+  width: 80%;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 /* For width 1000px and smaller: */
 @media only screen and (max-width: 1000px) {
@@ -31,7 +38,7 @@ body{
   }
 }
 .ThuNgoImage{
-  width: 85%;
+  width: 90%;
   height: auto;
   margin-top: 30px;
   margin-bottom: 15px;
