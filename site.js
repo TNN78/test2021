@@ -6,6 +6,7 @@ $(window).scroll(function(){
     $(".navbar").addClass("fixed-top");
   }
 });
+
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Veuillez entrer le mot de passe',' ');
@@ -25,4 +26,16 @@ history.go(-1);
 return " ";
 } 
 
+//Identifier d'abord la vidéo dans le DOM
+function toggleMute() {
+	var myVideo = document.getElementById("videoId");
+	myVideo.controls = true
+	myVideo.play();
+	
+}
+
+$(document).ready(function(){
+  setTimeout(toggleMute,3000);
+
+}) 
 
