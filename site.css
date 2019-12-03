@@ -2,8 +2,8 @@ body{
   background-color: #feebe1;
 }
 .banner{
-  background-color: #ffe1e1;
-  background-image: url(images/image_de_fond.jpg);
+  background-color: #f8cbae;
+  /*background-image: url(images/image_de_fond.jpg); */
   margin: auto;
 }
 .banner1{
