@@ -1,12 +1,12 @@
 body{
-  background-color: #f7ddfc;
+  background-color: #f9ecfc;
 }
 .banner{
-  background-color: #F8CBAE;
+  background-color: #f9ecfc;
   margin: auto;
 }
 .banner1{
-  background-color: #f7ddfc;
+  background-color: #f9ecfc;
   margin: auto;
 }
 .responsiveImage{
@@ -71,7 +71,7 @@ body{
 }
 .jumbotron{
   padding-top: 0.50%;
-  background-color: #f7ddfc;
+  background-color: #f9ecfc;
 }
 .jumbotron1{
   padding-top: 1%;
