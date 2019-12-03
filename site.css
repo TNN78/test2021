@@ -1,5 +1,5 @@
 body{
-  background-color: #feebe1;
+  background-color: #fae8d4;
 }
 .banner{
   background-color: #f8cbae;
@@ -7,7 +7,7 @@ body{
   margin: auto;
 }
 .banner1{
-  background-color: #ffe1e1;
+  background-color: #fae8d4;
   background-image: url(images/image_de_fond.jpg);
   margin: auto;
 }
@@ -73,7 +73,7 @@ body{
 }
 .jumbotron{
   padding-top: 0.50%;
-  background-color: #feebe1;
+  background-color: #fae8d4;
 }
 .jumbotron1{
   padding-top: 1%;
