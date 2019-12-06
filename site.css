@@ -43,7 +43,8 @@ body{
   margin-right:auto;
 }
 .navbar-center{
-  position: absolute;
+  /*position: absolute;*/
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
