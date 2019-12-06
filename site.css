@@ -43,8 +43,7 @@ body{
   margin-right:auto;
 }
 .navbar-center{
-  /*position: absolute;*/
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -135,4 +134,17 @@ object{
   position: relative;
   width: 90%;
   padding-top: 130%;
+}
+@media screen and (max-width: 2000px) {
+  a.x-btn-navbar {
+    display: block;
+    float: right;
+  }
+
+  nav.x-nav-wrap.desktop {
+    display: none;
+  }
+  .x-nav-wrap.mobile:not(.x-collapsed) {
+    display: block !important;
+  }
 }
