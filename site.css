@@ -126,7 +126,6 @@ object{
   bottom: 0;
   right: 0;
 }
-
 .containerPDF {
   display:block;
   margin-left:auto;
@@ -134,17 +133,4 @@ object{
   position: relative;
   width: 90%;
   padding-top: 130%;
-}
-@media screen and (max-width: 2000px) {
-  a.x-btn-navbar {
-    display: block;
-    float: right;
-  }
-
-  nav.x-nav-wrap.desktop {
-    display: none;
-  }
-  .x-nav-wrap.mobile:not(.x-collapsed) {
-    display: block !important;
-  }
 }
