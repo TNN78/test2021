@@ -90,8 +90,9 @@ body{
   margin-right: 2px;
   border-top-left-radius: 2px;
   border-bottom-right-radius: 2px;
-  border-radius: 10px;
-  /*border: 2px solid #7a0099; */
+  border-radius: 6px;
+  /*background: linear-gradient(#4c0080,#8555ac); */
+  /*border: 2px solid #7a0099;*/
   /*height: 100% !important;*/
 }
 .nav-link{
@@ -118,8 +119,9 @@ body{
   background-color: #7a0099!important;
 }
 .active{
-  background-color: #7a0099;
-  /*border: 2px solid #7a0099;*/
+  /*background-color: #7a0099;*/
+  background: linear-gradient(#7a0099,#8555ac , #7a0099);
+  border: 1px solid #4c0080;
 }
 .btn-primary{
     display:block;
