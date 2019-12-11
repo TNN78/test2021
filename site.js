@@ -29,13 +29,13 @@ return " ";
 //Identifier d'abord la vidéo dans le DOM
 function toggleMute() {
 	var myVideo = document.getElementById("videoId");
-	myVideo.controls = true
+	myVideo.controls = true;
 	myVideo.play();
 	
 }
 
 $(document).ready(function(){
-  setTimeout(toggleMute,3000);
+  setTimeout(toggleMute,2500);
 
 }) 
 var message="";
@@ -49,3 +49,10 @@ if (document.layers)
 else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
 document.oncontextmenu=new Function("return false")
 
+
+function unmutedplay(idPlayer, control) {
+    var player = document.querySelector('#' + idPlayer);
+  player.muted = false;
+  control.hidden = true;
+
+} 
