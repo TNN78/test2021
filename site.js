@@ -56,3 +56,27 @@ function unmutedplay(idPlayer, control) {
   control.hidden = true;
 
 } 
+var Img=new Array; 
+Img[0]="images/banner1.jpg"; 
+Img[1]="images/banner2.jpg"; 
+Img[2]="images/banner3.jpg"; 
+Img[3]="images/banner4.jpg"; 
+Img[4]="images/banner5.jpg"; 
+Img[5]="images/banner6.jpg";
+Img[6]="images/banner7.jpg"; 
+Img[7]="images/banner8.jpg";
+Img[8]="images/banner9.jpg"; 
+
+var i=0;
+ 
+
+function change(index) { 
+document.getElementById('pic').src=Img[index]; 
+i++; 
+if (i < Img.length) 
+{ 
+setTimeout('change(i)',5500); }
+else{i=0;setTimeout('change(i)',5500);}
+ } 
+setTimeout('change(i)',100);
+
