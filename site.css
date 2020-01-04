@@ -53,8 +53,17 @@ body{
   margin-right: 7%;
   font-family: 'Livvic', sans-serif;
   font-size: 17px;
-  line-height: 14px;
+  line-height: 23px;
 }
+.paragraphe1 {
+  text-indent: 0px;
+  margin-left: 9%;
+  margin-right: 6%;
+  font-family: 'Livvic', sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+}
+
 .titparagraphe {
   text-indent: 0px;
   margin-left: 5%;
@@ -63,6 +72,7 @@ body{
   font-size: 19px;
   font-weight: bold;
   line-height: 20px;
+
 }
 .jumbotron{
   padding-top: 0.50%;
@@ -71,11 +81,12 @@ body{
 .jumbotron1{
   padding-top: 1%;
   background-color: #ffffff;
-  width: 90%;
+  width: 80%;
   display:block;
   margin-top: 1%;
   margin-left:auto;
   margin-right:auto;
+  border: 3px solid #e0bdfe
 }
 .jumbotron2{
   padding-top: 1%;
@@ -165,3 +176,18 @@ object{
   border: 1pt solid grey;
   transform: translate(-80%, -80%);
 }
+.menu-tintuc {
+  width: 30%;
+  color: #0a0be2;
+ /*float: left ; */
+}
+.menu-tintuc a {
+ display:block;
+ color: #7a0099;
+}
+.menu-tintuc a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
