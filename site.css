@@ -121,12 +121,12 @@ body{
   color: white!important;
   font-family: 'Merriweather', serif;
   text-shadow: 1px 1px #000000;
-  line-height: 15px;
-  font-size: 14px;
+  line-height: 14px;
+  font-size: 13px;
  }
 .dropdown-item{
   font-family: 'Merriweather', serif;
-  font-size: 14px;
+  font-size: 13px;
   border-top: 1px solid #eeebf8;
 }
 .nav-item:hover,
