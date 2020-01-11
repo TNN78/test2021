@@ -5,6 +5,7 @@ body{
   background-color: #f8cbae;
   /*background-image: url(images/image_de_fond.jpg); */
   margin: auto;
+  user-select: none;
 }
 .banner1{
   background-color: #fae8d4;
@@ -52,26 +53,28 @@ body{
   margin-left: 7%;
   margin-right: 7%;
   font-family: 'Livvic', sans-serif;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 19px;
+  line-height: 30px;
 }
 .paragraphe1 {
   text-indent: 0px;
   margin-left: 9%;
   margin-right: 7%;
   font-family: 'Livvic', sans-serif;
-  font-size: 17px;
-  line-height: 28px;
+  /*font-family: 'Times New Roman', Times, serif;*/
+  font-size: 19px;
+  line-height: 31px;
+  user-select: none;
 }
 
 .titparagraphe {
   text-indent: 0px;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: 'Livvic', sans-serif;
-  font-size: 19px;
-  font-weight: bold;
-  line-height: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  /*font-weight: bold;*/
+  line-height: 28px;
 
 }
 .jumbotron{
@@ -90,8 +93,9 @@ body{
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-radius: 20px;
-  border: 3px solid #e0bdfe
-}
+  border: 3px solid #e0bdfe;
+
+  }
 .jumbotron2{
   padding-top: 1%;
   width: 80%;
@@ -193,5 +197,11 @@ object{
   color: black;
   text-decoration: none;
 }
-
+img {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
 
