@@ -35,7 +35,7 @@ body{
 }
 
 .ThuNgoImage{
-  width: 90%;
+  width: 85%;
   height: auto;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -53,17 +53,17 @@ body{
   margin-left: 7%;
   margin-right: 7%;
   font-family: 'Livvic', sans-serif;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 20px;
 }
 .paragraphe1 {
   text-indent: 0px;
-  margin-left: 9%;
+  margin-left: 7%;
   margin-right: 7%;
   font-family: 'Livvic', sans-serif;
   /*font-family: 'Times New Roman', Times, serif;*/
-  font-size: 19px;
-  line-height: 31px;
+  font-size: 17px;
+  line-height: 25px;
   user-select: none;
 }
 
@@ -72,9 +72,9 @@ body{
   margin-left: 5%;
   margin-right: 5%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 26px;
+  font-size: 21px;
   /*font-weight: bold;*/
-  line-height: 28px;
+  line-height: 24px;
 
 }
 .jumbotron{
@@ -98,7 +98,7 @@ body{
   }
 .jumbotron2{
   padding-top: 1%;
-  width: 80%;
+  width: 85%;
   display:block;
   margin-top: 1%;
   margin-left:auto;
@@ -131,6 +131,16 @@ body{
   text-shadow: 1px 1px #000000;
   line-height: 14px;
   font-size: 13px;
+ }
+ @media only screen and (max-device-width:1100px)
+ {
+  .nav-link{
+  color: white!important;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 1px #000000;
+  line-height: 11px;
+  font-size: 10px;
+ }
  }
 .dropdown-item{
   font-family: 'Merriweather', serif;
