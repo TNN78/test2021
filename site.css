@@ -61,12 +61,19 @@ body{
   margin-left: 7%;
   margin-right: 7%;
   font-family: 'Livvic', sans-serif;
-  /*font-family: 'Times New Roman', Times, serif;*/
   font-size: 17px;
   line-height: 25px;
   user-select: none;
 }
-
+.paragraphe2 {
+  text-indent: 0px;
+  margin-left: 9%;
+  margin-right: 7%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  line-height: 23px;
+  user-select: none;
+}
 .titparagraphe {
   text-indent: 0px;
   margin-left: 5%;
