@@ -70,8 +70,8 @@ body{
   margin-left: 9%;
   margin-right: 7%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 24px;
   user-select: none;
 }
 .titparagraphe {
@@ -145,7 +145,7 @@ body{
   color: white!important;
   font-family: 'Merriweather', serif;
   text-shadow: 1px 1px #000000;
-  line-height: 11px;
+  line-height: 12px;
   font-size: 10px;
  }
  }
