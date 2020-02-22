@@ -208,7 +208,7 @@ user-select: none;
 }
 .info-table{
   font-family: 'Livvic', sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 31px;
   color: black;
 }
@@ -216,7 +216,7 @@ user-select: none;
 .detail-table{
   vertical-align: text-bottom;
   font-family: 'Livvic', sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 31px;
   color: black;
 }
