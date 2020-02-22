@@ -175,21 +175,6 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-object{
-  position:  absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.containerPDF {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  position: relative;
-  width: 90%;
-  padding-top: 130%;
-}
 .boutonSon{
 
   display: inline-block;
@@ -221,4 +206,28 @@ img {
 -o-user-select: none;
 user-select: none;
 }
+.info-table{
+  font-family: 'Livvic', sans-serif;
+  font-size: 19px;
+  line-height: 31px;
+  color: black;
+}
 
+.detail-table{
+  vertical-align: text-bottom;
+  font-family: 'Livvic', sans-serif;
+  font-size: 19px;
+  line-height: 31px;
+  color: black;
+}
+
+.div-paragraphe{
+  text-indent: 0px;
+  font-family: 'Livvic', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  width: 75%;
+  text-align: center;
+  margin-left: 12%;
+  color: purple;
+}
