@@ -71,7 +71,7 @@ body{
   margin-right: 7%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 25px;
   user-select: none;
 }
 .titparagraphe {
@@ -210,7 +210,7 @@ user-select: none;
   font-family: 'Livvic', sans-serif;
   font-size: 18px;
   line-height: 31px;
-  color: purple;
+  color: black;
 }
 
 .detail-table{
@@ -218,7 +218,7 @@ user-select: none;
   font-family: 'Livvic', sans-serif;
   font-size: 18px;
   line-height: 31px;
-  color: purple;
+  color: black;
 }
 
 .div-paragraphe{
