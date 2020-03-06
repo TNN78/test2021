@@ -189,11 +189,13 @@ body{
 .menu-tintuc {
   left: 0;
   color: #0a0be2;
- margin: auto;
+  margin: auto;
 }
 .menu-tintuc a {
- display:block;
- color: #7a0099;
+  display:block;
+  color: #7a0099;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
 }
 .menu-tintuc a:hover {
   color: black;
