@@ -114,6 +114,16 @@ body{
   background: linear-gradient(to right, #e0bdfe , #ece6eb,#f7f5f7,#ffffff,#ffffff,#ffffff,#f7f5f7,#ece6eb,#e0bdfe);*/
 
 }
+.jumbotron3{
+  background-color: #ffffff;
+  width: 87%;
+  display:block;
+  margin-top: 0%;
+  margin-left:auto;
+  margin-right:auto;
+  border: 3px solid #e0bdfe;
+
+  }
 .navbar{
   background-color: grey!important;
   /*background: linear-gradient(to right, #e9e2e8 , #ece6eb,#f7f5f7,#ffffff,#ffffff,#ffffff,#f7f5f7,#ece6eb,#e9e2e8);*/
