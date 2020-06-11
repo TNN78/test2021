@@ -172,7 +172,8 @@ body{
 .dropdown-item{
   font-family: 'Merriweather', serif;
   font-size: 13px;
-  border-top: 1px solid #eeebf8;
+  /*border-top: 1px solid #eeebf8;*/
+  border-top: 1px solid #7a0099;
 }
 .nav-item:hover,
 .nav-item:focus{
