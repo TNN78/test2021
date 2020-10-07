@@ -27,15 +27,26 @@ return " ";
 } 
 
 //Identifier d'abord la vidéo dans le DOM
+var timeoutID;
 function toggleMute() {
-	var myVideo = document.getElementById("videoId");
-	myVideo.controls = true;
-	myVideo.play();
+	var myAudio = document.getElementById("audio");
+  var myBtnSon = document.getElementById("hautparleur");
+  clearTimeout(timeoutID);
+	myAudio.load();
+  myAudio.play();
+  if (myAudio.paused) 
+    { location.reload(true);
+      myAudio.load();
+      myAudio.play();}
+  else {myBtnSon.hidden = true;
+    myAudio.hidden = false;
+    myAudio.muted = false;
+  }
 	
 }
 
 $(document).ready(function(){
-  setTimeout(toggleMute,2500);
+  //timeoutID=setTimeout(toggleMute,2500);
 
 }) 
 var message="";
@@ -49,6 +60,26 @@ if (document.layers)
 else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
 document.oncontextmenu=new Function("return false")
 
+function SelTinTuc(indMenu) {
+        var myAudio = document.getElementById("audio");
+        var myBtnSon = document.getElementById("hautparleur");
+        var myImg = document.getElementById("imgtt");
+        myAudio.hidden = true;
+        myBtnSon.hidden = true;
+        myAudio.muted = true;
+        if (indMenu==1)
+          {myImg.src='../Tin-tuc/DHGLTGX_ThuHuyBo.jpg';}
+        else {
+          if (indMenu==2)
+            {myImg.src='../Tin-tuc/BanTin_14-05-20.jpg';}
+          else {
+            if (indMenu==3)
+              {myImg.src='../Tin-tuc/BanTin1_2.jpg';}
+          else {
+            if (indMenu==4)
+              {myImg.src='../Tin-tuc/BanTin1_1.jpg';}
+          }}}
+    }
 
 function unmutedplay(idPlayer, control) {
     var player = document.querySelector('#' + idPlayer);
@@ -56,6 +87,17 @@ function unmutedplay(idPlayer, control) {
   control.hidden = true;
 
 } 
+function playAudio() {
+        var myAudio = document.getElementById("audio");
+        var myBtnSon = document.getElementById("hautparleur");
+        myAudio.volume = 0.5;
+        myAudio.hidden = false;
+        myAudio.controls = true;
+        myBtnSon.hidden = true;
+        myAudio.play();
+    }
+
+
 var Img=new Array; 
 Img[0]="images/banner1.jpg"; 
 Img[1]="images/banner2.jpg"; 

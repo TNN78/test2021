@@ -238,10 +238,10 @@ body{
 
   display: inline-block;
   position: absolute;
-  width: 12%;
+  width: 4%;
   height: auto;
-  top: 50%;
-  left: 25%;
+  top: 22%;
+  left: 10%;
   border: 1pt solid grey;
   transform: translate(-80%, -80%);
 }
