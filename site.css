@@ -207,12 +207,26 @@ body{
 
 @media (max-width: 992px) {
     .dropdown-menu{
-        width: 60%;
+        width: 100%;
     }
+    .dropdown-submenu a::after{
+        transform: rotate(0deg);
+        position: absolute;
+        right: 3px;
+        top: 40%;
+    }  
+    .dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute !important;
+        /*margin-top: 2px;*/
+        top: 100%;
+        left: 20%;
+    }      
     .dropdown-menu .dropdown-submenu{
         /*width: auto;*/
         top: 100%;
-        left: 0;
+        left: 0%;
         margin-left: .1rem;
         margin-right: .1rem;
       }
@@ -224,6 +238,7 @@ body{
   margin-right: .1rem;
 
 }
+
 .active{
   /*background-color: #7a0099;*/
   background: linear-gradient(#7a0099,#8555ac , #7a0099);
@@ -238,10 +253,10 @@ body{
 
   display: inline-block;
   position: absolute;
-  width: 4%;
+  width: 7%;
   height: auto;
-  top: 22%;
-  left: 10%;
+  top: 28%;
+  left: 12%;
   border: 1pt solid grey;
   transform: translate(-80%, -80%);
 }
