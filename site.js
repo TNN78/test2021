@@ -11,20 +11,20 @@ function passWord() {
 var testV = 1;
 var pass1 = prompt('Veuillez entrer le mot de passe',' ');
 while (testV < 10) {
-if (!pass1) 
+if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "gialongparis75") {
 window.location="content/TrangChinh.html";
 break ;
-} 
+}
 testV+=1;
-var pass1 = 
+var pass1 =
 prompt('Accès interdit - Mot de passe incorrect. Veuillez réessayer.','Mot de passe');
 }
-if (pass1.toLowerCase()!="gialongparis75" & testV ==10) 
+if (pass1.toLowerCase()!="gialongparis75" & testV ==10)
 history.go(-1);
 return " ";
-} 
+}
 
 //Identifier d'abord la vidéo dans le DOM
 var timeoutID;
@@ -34,7 +34,7 @@ function toggleMute() {
   clearTimeout(timeoutID);
 	myAudio.load();
   myAudio.play();
-  if (myAudio.paused) 
+  if (myAudio.paused)
     { location.reload(true);
       myAudio.load();
       myAudio.play();}
@@ -42,13 +42,13 @@ function toggleMute() {
     myAudio.hidden = false;
     myAudio.muted = false;
   }
-	
+
 }
 
 $(document).ready(function(){
   //timeoutID=setTimeout(toggleMute,2500);
 
-}) 
+})
 var message="";
 ///////////////////////////////////
 function clickIE() {if (document.all) {(message);return false;}}
@@ -60,33 +60,46 @@ if (document.layers)
 else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
 document.oncontextmenu=new Function("return false")
 
-function SelTinTuc(indMenu) {
-        var myAudio = document.getElementById("audio");
-        var myBtnSon = document.getElementById("hautparleur");
-        var myImg = document.getElementById("imgtt");
-        myAudio.hidden = true;
-        myBtnSon.hidden = true;
-        myAudio.muted = true;
-        if (indMenu==1)
-          {myImg.src='../Tin-tuc/DHGLTGX_ThuHuyBo.jpg';}
-        else {
-          if (indMenu==2)
-            {myImg.src='../Tin-tuc/BanTin_14-05-20.jpg';}
-          else {
-            if (indMenu==3)
-              {myImg.src='../Tin-tuc/BanTin1_2.jpg';}
-          else {
-            if (indMenu==4)
-              {myImg.src='../Tin-tuc/BanTin1_1.jpg';}
-          }}}
-    }
-
+    function SelTinTuc(indMenu) {
+            var myAudio = document.getElementById("audio");
+            var myBtnSon = document.getElementById("hautparleur");
+            var myImg = document.getElementById("imgtt");
+            myAudio.hidden = true;
+            myBtnSon.hidden = true;
+            myAudio.muted = true;
+            switch(indMenu) {
+              case 1:
+                myImg.src='../Tin-tuc/BanTin1_1.jpg';
+                break;
+                case 1:
+                  myImg.src='../Tin-tuc/BanTin1_1.jpg';
+                  break;
+                case 2:
+                  myImg.src='../Tin-tuc/BanTin1_2.jpg';
+                  break;
+                case 3:
+                  myImg.src='../Tin-tuc/BanTin_14-05-20.jpg';
+                  break;
+                case 4:
+                  myImg.src='../Tin-tuc/DHGLTGX_ThuHuyBo.jpg';
+                  break;
+                case 5:
+                  myImg.src='../Tin-tuc/BanTin_14-12-20.jpg';
+                  break;
+                case 6:
+                  myImg.src='../Tin-tuc/BanTin_03-12-20.jpg';
+                  break;
+                case 7:
+                  myImg.src='../Tin-tuc/Thiep_14-12-20.jpg';
+                  break;
+            }
+        }
 function unmutedplay(idPlayer, control) {
     var player = document.querySelector('#' + idPlayer);
   player.muted = false;
   control.hidden = true;
 
-} 
+}
 function playAudio() {
         var myAudio = document.getElementById("audio");
         var myBtnSon = document.getElementById("hautparleur");
@@ -98,28 +111,28 @@ function playAudio() {
     }
 
 
-var Img=new Array; 
-Img[0]="images/banner1.jpg"; 
-Img[1]="images/banner2.jpg"; 
-Img[2]="images/banner3.jpg"; 
-Img[3]="images/banner4.jpg"; 
-Img[4]="images/banner5.jpg"; 
+var Img=new Array;
+Img[0]="images/banner1.jpg";
+Img[1]="images/banner2.jpg";
+Img[2]="images/banner3.jpg";
+Img[3]="images/banner4.jpg";
+Img[4]="images/banner5.jpg";
 Img[5]="images/banner6.jpg";
-Img[6]="images/banner7.jpg"; 
+Img[6]="images/banner7.jpg";
 Img[7]="images/banner8.jpg";
-Img[8]="images/banner9.jpg"; 
+Img[8]="images/banner9.jpg";
 
 var i=0;
- 
 
-function change(index) { 
-document.getElementById('pic').src=Img[index]; 
-i++; 
-if (i < Img.length) 
-{ 
+
+function change(index) {
+document.getElementById('pic').src=Img[index];
+i++;
+if (i < Img.length)
+{
 setTimeout('change(i)',5500); }
 else{i=0;setTimeout('change(i)',5500);}
- } 
+ }
 setTimeout('change(i)',100);
 
 $('.dropdown-submenu > a').on("click", function(e) {
@@ -148,4 +161,3 @@ $('.dropdown').on("hidden.bs.dropdown", function() {
 
   return false;
 });*/
-
