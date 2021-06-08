@@ -92,6 +92,9 @@ document.oncontextmenu=new Function("return false")
                 case 7:
                   myImg.src='../Tin-tuc/Thiep_14-12-20.jpg';
                   break;
+                case 8:
+                  myImg.src='../Tin-tuc/BanTin_14-05-21.jpg';
+                  break;
             }
         }
 function unmutedplay(idPlayer, control) {
