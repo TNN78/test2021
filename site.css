@@ -2,7 +2,7 @@ body{
   background-color: #fae8d4;
 }
 .banner{
-  background-color: #f8cbae;
+  background-color: #f8cbae;  /* fcdec3*/
   /*background-image: url(images/image_de_fond.jpg); */
   margin: auto;
   user-select: none;
