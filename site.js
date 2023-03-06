@@ -60,43 +60,37 @@ if (document.layers)
 else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
 document.oncontextmenu=new Function("return false")
 
-    function SelTinTuc(indMenu) {
-            var myAudio = document.getElementById("audio");
-            var myBtnSon = document.getElementById("hautparleur");
-            var myImg = document.getElementById("imgtt");
-            myAudio.hidden = true;
-            myBtnSon.hidden = true;
-            myAudio.muted = true;
-            switch(indMenu) {
-              case 1:
-                myImg.src='../Tin-tuc/BanTin1_1.jpg';
-                break;
-                case 1:
-                  myImg.src='../Tin-tuc/BanTin1_1.jpg';
-                  break;
-                case 2:
-                  myImg.src='../Tin-tuc/BanTin1_2.jpg';
-                  break;
-                case 3:
-                  myImg.src='../Tin-tuc/BanTin_14-05-20.jpg';
-                  break;
-                case 4:
-                  myImg.src='../Tin-tuc/DHGLTGX_ThuHuyBo.jpg';
-                  break;
-                case 5:
-                  myImg.src='../Tin-tuc/BanTin_14-12-20.jpg';
-                  break;
-                case 6:
-                  myImg.src='../Tin-tuc/BanTin_03-12-20.jpg';
-                  break;
-                case 7:
-                  myImg.src='../Tin-tuc/Thiep_14-12-20.jpg';
-                  break;
-                case 8:
-                  myImg.src='../Tin-tuc/BanTin_14-05-21.jpg';
-                  break;
-            }
+function SelVideo(indMenu) {
+        var myAudio = document.getElementById("audio");
+        var myBtnSon = document.getElementById("hautparleur");
+        var myImg = document.getElementById("imgtt");
+        myAudio.hidden = true;
+        myBtnSon.hidden = true;
+        myAudio.muted = true;
+        switch(indMenu) {
+            case 1:
+              myImg.src='../HinhAnh/Paris_VuonDao.gif';
+              break;
+            case 2:
+              myImg.src='../HinhAnh/Paris.gif';
+              break;
+            case 3:
+              myImg.src='../HinhAnh/Paris.gif';
+              break;
         }
+    }
+function SelThongTin(indMenu) {
+        var myImg = document.getElementById("imgtt");
+        switch(indMenu) {
+            case 1:
+              myImg.src='images/ThuNgoHT2023.jpg';
+              break;
+            case 2:
+              myImg.src='images/ThongBao_05-03-2023.jpg';
+              break;
+        }
+    }
+
 function unmutedplay(idPlayer, control) {
     var player = document.querySelector('#' + idPlayer);
   player.muted = false;

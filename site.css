@@ -2,7 +2,7 @@ body{
   background-color: #fae8d4;
 }
 .banner{
-  background-color: #f8cbae;
+  background-color: #f8cbae;  /* fcdec3*/
   /*background-image: url(images/image_de_fond.jpg); */
   margin: auto;
   user-select: none;
@@ -81,6 +81,15 @@ body{
   font-family: 'Times New Roman', Times, serif;
   font-size: 19px;
   line-height: 27px;
+  user-select: none;
+}
+.paragraphe4 {
+  text-indent: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
   user-select: none;
 }
 .titparagraphe {
@@ -272,8 +281,13 @@ body{
 }
 .menu-tintuc {
   left: 0;
+  top: 0;
   color: #0a0be2;
-  margin: auto;
+  margin-left: -10%;
+  margin-right: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 1px solid #e0bdfe;
 }
 .menu-tintuc a {
   display:block;
@@ -281,7 +295,7 @@ body{
   color: #000000;
   font-family: 'Courrier', Times, serif;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 32px;
 }
 .menu-tintuc a:hover {
   color: #7a0099;
