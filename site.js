@@ -69,13 +69,13 @@ function SelVideo(indMenu) {
         myAudio.muted = true;
         switch(indMenu) {
             case 1:
-              myImg.src='../HinhAnh/Paris_VuonDao.gif';
+              myImg.src='../HinhAnh/PARIS_VuonDao.gif';
               break;
             case 2:
-              myImg.src='../HinhAnh/Paris.gif';
+              myImg.src='../HinhAnh/PARIS.gif';
               break;
             case 3:
-              myImg.src='../HinhAnh/Paris.gif';
+              myImg.src='../HinhAnh/PRIS.gif';
               break;
         }
     }
