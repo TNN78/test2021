@@ -75,7 +75,7 @@ function SelVideo(indMenu) {
               myImg.src='../HinhAnh/PARIS.gif';
               break;
             case 3:
-              myImg.src='../HinhAnh/PRIS.gif';
+              myImg.src='../HinhAnh/PARIS.gif';
               break;
         }
     }
