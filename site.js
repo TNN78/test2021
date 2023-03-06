@@ -83,7 +83,7 @@ function SelThongTin(indMenu) {
         var myImg = document.getElementById("imgtt");
         switch(indMenu) {
             case 1:
-              myImg.src='images/ThuNgoHT2023.jpg';
+              myImg.src='images/ThongBao_05-03-2023.jpg';
               break;
             case 2:
               myImg.src='images/ThongBao_05-03-2023.jpg';
