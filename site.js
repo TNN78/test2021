@@ -88,6 +88,10 @@ function SelThongTin(indMenu) {
             case 2:
               myImg.src='images/ThongBao_02-05-2023.jpg';
               break;
+            case 3:
+              myImg.src='Bao-chi/ThongTinBaoChi.jpg';
+              break;
+
         }
     }
 
