@@ -64,17 +64,14 @@ function SelVideo(indMenu) {
         var myAudio = document.getElementById("audio");
         var myBtnSon = document.getElementById("hautparleur");
         var myImg = document.getElementById("imgtt");
-        myAudio.hidden = true;
+        myAudio.hidden = false;
         myBtnSon.hidden = true;
-        myAudio.muted = true;
+        myAudio.muted = false;
         switch(indMenu) {
             case 1:
               myImg.src='../HinhAnh/PARIS_VuonDao.gif';
               break;
             case 2:
-              myImg.src='../HinhAnh/PARIS.gif';
-              break;
-            case 3:
               myImg.src='../HinhAnh/PARIS.gif';
               break;
         }
