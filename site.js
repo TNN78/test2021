@@ -86,15 +86,9 @@ function SelThongTin(indMenu) {
               myImg.src='images/ThongBao_05-2023.jpg';
               break;
             case 3:
-              myImg.src='Bao-chi/ThongTinBaoChi.jpg';
+              myImg.src='GhiDanh/HuongDanXinVisa.jpg';
               break;
             case 4:
-              myImg.src='Du-lich/GioiThieuDuLich.jpg';
-              break;
-            case 5:
-              myImg.src='GhiDanh/ThuNgoGhiDanh.jpg';
-              break;
-            case 6:
               myImg.src='images/ThongBao_06-2023.jpg';
               break;
 
