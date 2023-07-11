@@ -91,7 +91,6 @@ function SelThongTin(indMenu) {
             case 4:
               myImg.src='images/ThongBao_06-2023.jpg';
               break;
-
         }
     }
     function SelNienKhoa(indMenu) {
