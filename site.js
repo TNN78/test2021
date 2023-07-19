@@ -74,6 +74,9 @@ function SelVideo(indMenu) {
             case 2:
               myImg.src='../HinhAnh/PARIS.gif';
               break;
+            case 3:
+              myImg.src='../HinhAnh/HopBTC1.jpg';
+              break;
         }
     }
 function SelThongTin(indMenu) {
