@@ -103,12 +103,15 @@ function SelThongTin(indMenu) {
         var myImg = document.getElementById("imgtt");
         switch(indMenu) {
                 case 1:
-                  myImg.src='../GhiDanh/DSCNuSinh1970-1974.jpg';
+                  myImg.src='../GhiDanh/DSCNuSinh1960-1969.jpg';
                   break;
                 case 2:
-                  myImg.src='../GhiDanh/DSCNuSinh1975-1979.jpg';
+                  myImg.src='../GhiDanh/DSCNuSinh1970-1974.jpg';
                   break;
                 case 3:
+                  myImg.src='../GhiDanh/DSCNuSinh1975-1979.jpg';
+                  break;
+                case 4:
                   myImg.src='../GhiDanh/DSCNuSinh1980.jpg';
                   break;
             }
