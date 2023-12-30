@@ -64,22 +64,33 @@ function SelVideo(indMenu) {
         var myAudio = document.getElementById("audio");
         var myBtnSon = document.getElementById("hautparleur");
         var myImg = document.getElementById("imgtt");
+ var myVideo1 = document.getElementById("video1");
         myAudio.hidden = false;
         myBtnSon.hidden = true;
         myAudio.muted = false;
         switch(indMenu) {
             case 1:
-              myImg.src='../HinhAnh/PARIS_VuonDao.gif';
+             	myImg.hidden = false;
+            	myImg.src='../HinhAnh/PARIS_VuonDao.gif';
+            	myVideo1.hidden = true;
               break;
             case 2:
-	myImg.src='../HinhAnh/PARIS.gif';
-	myImg.scrollIntoView({ behavior: "smooth",  block: "start",  inline: "nearest"});
+             	myImg.hidden = false;
+            	myVideo1.hidden = true;
+             	myImg.src='../HinhAnh/PARIS.gif';
               break;
             case 3:
-              	myImg.src='../HinhAnh/HopBTC1.jpg';
-	myImg.scrollIntoView({ behavior: "smooth",  block: "start",  inline: "nearest"});
+ 	            myImg.hidden = false;
+  	          myVideo1.hidden = true;
+             	myImg.src='../HinhAnh/HopBTC1.jpg';
               break;
-        }
+             case 4:
+            	myVideo1.hidden = false;
+            	myImg.hidden = true;
+              myvideo1.play();
+              myvideo1.controls = false;
+              break;
+       }
     }
 function SelThongTin(indMenu) {
         var myImg = document.getElementById("imgtt");
