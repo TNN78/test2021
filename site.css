@@ -272,9 +272,9 @@ body{
 
   display: inline-block;
   position: absolute;
-  width: 7%;
+  width: 5%;
   height: auto;
-  top: 28%;
+  top: 15%;
   left: 12%;
   border: 1pt solid grey;
   transform: translate(-80%, -80%);

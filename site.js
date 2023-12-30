@@ -72,13 +72,12 @@ function SelVideo(indMenu) {
               myImg.src='../HinhAnh/PARIS_VuonDao.gif';
               break;
             case 2:
-              myImg.src='../HinhAnh/PARIS.gif';
+	myImg.src='../HinhAnh/PARIS.gif';
+	myImg.scrollIntoView({ behavior: "smooth",  block: "start",  inline: "nearest"});
               break;
             case 3:
-              myImg.src='../HinhAnh/HopBTC1.jpg';
-              break;
-            case 4:
-              myImg.src='../HinhAnh/ParisDepLam-NhatHung.jpg';
+              	myImg.src='../HinhAnh/HopBTC1.jpg';
+	myImg.scrollIntoView({ behavior: "smooth",  block: "start",  inline: "nearest"});
               break;
         }
     }
