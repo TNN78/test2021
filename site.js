@@ -142,12 +142,15 @@ function unmutedplay(idPlayer, control) {
 }
 function playAudio() {
         var myAudio = document.getElementById("audio");
+        var myvideo1 = document.getElementById("video1");
         var myBtnSon = document.getElementById("hautparleur");
         myAudio.volume = 0.5;
         myAudio.hidden = false;
         myAudio.controls = true;
         myBtnSon.hidden = true;
         myAudio.play();
+        myvideo1.play();
+        myvideo1.controls = false;
     }
 
 
