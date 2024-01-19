@@ -145,6 +145,35 @@
   <main role="main">
 
     <div class="container">
+      <br>
+      <div class="slide-container">
+          <div class="custom-slider fade">
+             <img class="slide-img" src="images/Slide1.jpg">
+          </div>
+          <div class="custom-slider fade">
+             <img class="slide-img" src="images/Slide2.jpg">
+         </div>
+          <div class="custom-slider fade">
+              <img class="slide-img" src="images/Slide3.jpg">
+          </div>
+           <div class="custom-slider fade">
+              <img class="slide-img" src="images/Slide4.jpg">
+          </div>
+           <div class="custom-slider fade">
+             <img class="slide-img" src="images/Slide5.jpg">
+          </div>
+      </div>
+      <div class="slide-dot">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+      <script>
+        showSlides(slideIndex = 0);
+        carousel();
+      </script>
 
       <div id="thongbao"><br> </div>
       <div class="row">
@@ -162,15 +191,6 @@
           </div>
         </div>
         <div class="col-sm-9" style="float:right;padding-right: 0px;">
-          <div class="jumbotron3" >
-            <div align="center" style="margin-top: 4px">
-              <video autoplay muted loop poster="images/GL51.gif" width="100%"  >
-                <source src="images/GLTG2024.mp4" type="video/mp4">
-                <img src="images/GL51.gif" alt="" class="responsiveImage1">
-              </video>
-            </div>
-          </div>
-          <br>
           <div class="jumbotron3" ><img src="images/ThongBao_01-2024.jpg" width="100%" id="imgtt"></div>
         </div>
       </div>

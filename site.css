@@ -333,3 +333,35 @@ user-select: none;
   margin-left: 12%;
   color: purple;
 }
+.custom-slider { display: none; }
+.slide-container {
+    max-width: 101%;
+    position: relative;
+    margin: auto;
+}
+.slide-img{
+    width: 101%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.slide-dot{ text-align: center; }
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+.active, .dot:hover { background-color: #111111; }
+.fade {
+    animation-name: fade;
+    animation-duration: 100s;
+}
+@keyframes fade {
+    from {opacity: 1}
+    to {opacity: 1}
+}
