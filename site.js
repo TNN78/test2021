@@ -240,7 +240,7 @@ function carousel() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(carousel, 7000); // temps change image
+  setTimeout(carousel, 9000); // temps change image
 }
 var slideIndex = 1;
 showSlides(slideIndex);
