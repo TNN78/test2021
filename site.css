@@ -348,8 +348,8 @@ user-select: none;
 .slide-dot{ text-align: center; }
 .dot {
     cursor: pointer;
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
     margin: 0 2px;
     background-color: #999999;
     border-radius: 50%;
@@ -359,9 +359,50 @@ user-select: none;
 .active, .dot:hover { background-color: #111111; }
 .fade {
     animation-name: fade;
-    animation-duration: 150s;
+    animation-duration: 400s;
 }
 @keyframes fade {
     from {opacity: 1}
     to {opacity: 1}
 }
+.play_commands {
+  /* positionnement en haut à droite */
+  position: absolute;
+  z-index: auto;
+  /* dimensionnement des icônes */
+  width: 70px;
+  height: 22px;
+  text-indent: 30%;
+  border:0 none;
+  /* placez l'opacité à 1 si vous souhaitez voir les commandes */
+  opacity: 1;
+}
+/* création de l'icône pause avec 2 pseudos éléments */
+.pause:after,
+.pause:before {cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  content: " ";
+  top:5px;
+  width: 2px;
+  height: 13px;
+  background: rgba(0,0,0,0.5);
+}
+.pause:after { right:26%; }
+.pause:before { right:30%; }
+/* création de l'icône play avec des bordures */
+.play {
+  position: relative;
+  display: inline-block;
+  content: " ";
+  width: 1px;
+  height: 1px;
+   /* les transparentes forment la flèche */
+  margin-top: 5px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 12px solid rgba(0,0,0,0.5);
+  /* renseignez 1 pour voir l'icône de suite */
+  opacity: 0;
+ }
+.play { left: 5%; cursor: pointer; }
