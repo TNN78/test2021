@@ -25,7 +25,6 @@ if (pass1.toLowerCase()!="gialongparis75" & testV ==10)
 history.go(-1);
 return " ";
 }
-
 //Identifier d'abord la vidéo dans le DOM
 var timeoutID;
 function toggleMute() {
@@ -42,7 +41,6 @@ function toggleMute() {
     myAudio.hidden = false;
     myAudio.muted = false;
   }
-
 }
 
 $(document).ready(function(){
