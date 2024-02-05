@@ -98,6 +98,12 @@ function SelVideo(indMenu) {
 function SelThongTin(indMenu) {
         var myImg = document.getElementById("imgtt");
         switch(indMenu) {
+            case 101:
+              myImg.src='images/ThuNgoĐHGLT10.jpg';
+              break;
+            case 102:
+              myImg.src='images/ThuNgoHT2023.jpg';
+              break;
             case 1:
               myImg.src='images/ThongBao_03-2023.jpg';
               break;
