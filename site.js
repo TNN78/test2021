@@ -70,7 +70,7 @@ function SelVideo(indMenu) {
         switch(indMenu) {
             case 1:
              	//myImg.hidden = false;
-            	myImg.src='../HinhAnh/PARIS_VuonDao.gif';
+            	myImg.src='../HinhAnh/NhaHangPhap.jpg';
             	//myVideo1.hidden = true;
               //myTit1.hidden = true;
               break;
