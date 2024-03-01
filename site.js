@@ -137,6 +137,12 @@ function SelThongTin(indMenu) {
             case 11:
               myImg.src='images/ThiepTet2024.jpg';
               break;
+            case 12:
+              myImg.src='images/ThongBao_03-2024.jpg';
+              break;
+            case 13:
+              myImg.src='HinhAnh/NhaHangPhap.jpg';
+              break;
         }
     }
     function SelNienKhoa(indMenu) {
