@@ -143,6 +143,10 @@ function SelThongTin(indMenu) {
             case 13:
               myImg.src='HinhAnh/NhaHangPhap.jpg';
               break;
+            case 14:
+              myImg.src='images/ThongBao_04-2024.jpg';
+              break;
+
         }
     }
     function SelNienKhoa(indMenu) {
