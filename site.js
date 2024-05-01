@@ -153,7 +153,7 @@ function SelThongTin(indMenu) {
         var myImg = document.getElementById("imgtt");
         switch(indMenu) {
                 case 1:
-                  myImg.src='../GhiDanh/DSCNuSinh1960-1969.jpg';
+                  myImg.src='../GhiDanh/DSCNuSinh1950-1969.jpg';
                   break;
                 case 2:
                   myImg.src='../GhiDanh/DSCNuSinh1970-1972.jpg';
