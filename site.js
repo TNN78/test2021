@@ -146,6 +146,9 @@ function SelThongTin(indMenu) {
             case 14:
               myImg.src='images/ThongBao_04-2024.jpg';
               break;
+            case 15:
+              myImg.src='images/ThongBao_05-2024.jpg';
+              break;
 
         }
     }
