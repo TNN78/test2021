@@ -104,6 +104,24 @@ function SelThongTin(indMenu) {
             case 102:
               myImg.src='images/ThuNgoHT2023.jpg';
               break;
+            case 16:
+              myImg.src='images/ThongBao_06-2024.jpg';
+              break;
+            case 15:
+              myImg.src='images/ThongBao_05-2024.jpg';
+              break;
+            case 14:
+              myImg.src='images/ThongBao_04-2024.jpg';
+              break;
+            case 13:
+              myImg.src='HinhAnh/NhaHangPhap.jpg';
+              break;
+            case 12:
+              myImg.src='images/ThongBao_03-2024.jpg';
+              break;
+            case 11:
+              myImg.src='images/ThiepTet2024.jpg';
+              break;
             case 1:
               myImg.src='images/ThongBao_03-2023.jpg';
               break;
@@ -133,21 +151,6 @@ function SelThongTin(indMenu) {
               break;
             case 10:
               myImg.src='images/ThongBao_01-2024.jpg';
-              break;
-            case 11:
-              myImg.src='images/ThiepTet2024.jpg';
-              break;
-            case 12:
-              myImg.src='images/ThongBao_03-2024.jpg';
-              break;
-            case 13:
-              myImg.src='HinhAnh/NhaHangPhap.jpg';
-              break;
-            case 14:
-              myImg.src='images/ThongBao_04-2024.jpg';
-              break;
-            case 15:
-              myImg.src='images/ThongBao_05-2024.jpg';
               break;
 
         }
