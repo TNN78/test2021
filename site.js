@@ -64,13 +64,21 @@ function SelVideo(indMenu) {
         var myImg = document.getElementById("imgtt");
         //var myTit1 = document.getElementById("titreVideo1");
         //var myVideo1 = document.getElementById("video1");
-        myAudio.hidden = false;
-        myBtnSon.hidden = true;
+        //myAudio.hidden = false;
+        //myBtnSon.hidden = true;
         myAudio.muted = false;
+        myAudio.hidden = true;
+        myAudio.controls = false;
+        myBtnSon.hidden = false;
+        //myvideo1.controls = true;
         switch(indMenu) {
             case 1:
-             	//myImg.hidden = false;
-            	myImg.src='../HinhAnh/NhaHangPhap.jpg';
+           	//myImg.hidden = false;
+              myAudio.hidden = true;
+              myAudio.controls = false;
+              myBtnSon.hidden = true;
+              myAudio.pause();
+            	myImg.src='../HinhAnh/Vidéo_vnss.jpg';
             	//myVideo1.hidden = true;
               //myTit1.hidden = true;
               break;
@@ -81,7 +89,11 @@ function SelVideo(indMenu) {
               //myTit1.hidden = true;
               break;
             case 3:
- 	            //myImg.hidden = false;
+              myAudio.hidden = true;
+              myAudio.controls = false;
+              myBtnSon.hidden = true;
+              myAudio.pause();
+	            //myImg.hidden = false;
   	          //myVideo1.hidden = true;
              	myImg.src='../HinhAnh/HopBTC1.jpg';
               //myTit1.hidden = true;
@@ -103,6 +115,9 @@ function SelThongTin(indMenu) {
               break;
             case 102:
               myImg.src='images/ThuNgoHT2023.jpg';
+              break;
+            case 22:
+              myImg.src='HinhAnh/Vidéo_vnss.jpg';
               break;
             case 21:
               myImg.src='images/ThongBaoHDH_09-2024.jpg';
