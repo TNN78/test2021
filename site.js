@@ -85,6 +85,7 @@ function SelVideo(indMenu) {
             case 2:
              	//myImg.hidden = false;
             	//myVideo1.hidden = true;
+              myBtnSon.hidden = false;
              	myImg.src='../HinhAnh/PARIS.gif';
               //myTit1.hidden = true;
               break;
