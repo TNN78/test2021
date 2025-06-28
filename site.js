@@ -117,6 +117,9 @@ function SelThongTin(indMenu) {
             case 102:
               myImg.src='images/ThuNgoHT2023.jpg';
               break;
+            case 24:
+              myImg.src='images/SN_2025_I.jpg';
+              break;
             case 23:
               myImg.src='images/HoaiNiemGsTonThatThien.jpg';
               break;
